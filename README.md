@@ -15,7 +15,7 @@ TCom_AirDuct_1K_metallic.tif <br />
 from the above source files the script creates a material named: AirDuct1K.mat <br />
 then creates a mask named:  AirDuct1K_mask.tga  where R=Metallic,G=Ao,B=the detail mask will be empty,A = Smoothness (1-roughness) and assigns it as the material's mask texture; <br />
 <br />
-<br />
 Usage:<br />
+-Add the script to your project's 'Editor' folder.<br />
 -Select ALL the textures you want to create materials+mask map for.<br />
 -Run the script.<br />
